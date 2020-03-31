@@ -1,18 +1,16 @@
 public class CPU {
-    String Model;
 
-    int year_cpu,generation;
+    String model;
 
-    double speed_cpu;
-    public CPU(String m,int y_c,int g,double s_c){
-        Model=m;
+    int yearCpu, generation;
 
-        year_cpu=y_c;
+    double speedCpu;
 
-        generation =g;
-
-        speed_cpu=s_c;
+    public CPU(String m, int yC, int g, double sC) {
+        model = m;
+        yearCpu = yC;
+        generation = g;
+        speedCpu = sC;
     }
-
 
 }

@@ -1,9 +1,10 @@
 public class Storage {
-    int RAM,ROM;
 
-    public Storage(int ram,int rom){
-        RAM =ram;
-        ROM = rom;
+    int ram, rom;
 
+    public Storage(int Ram, int Rom) {
+        ram = Ram;
+        rom = Rom;
     }
+
 }

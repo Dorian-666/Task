@@ -1,14 +1,13 @@
 public class Model {
-    String corporation,computer_model;
 
-    int Year_model;
+    String corporation, computerModel;
 
-    public Model(String c,String c_m,int y_m){
-        corporation =c;
+    int yearModel;
 
-        computer_model = c_m;
-
-        Year_model = y_m;
+    public Model(String c, String cM, int yM) {
+        corporation = c;
+        computerModel = cM;
+        yearModel = yM;
     }
 
 }
